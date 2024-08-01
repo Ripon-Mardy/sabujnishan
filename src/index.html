@@ -1,0 +1,1106 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <title>Daily Sabuj Nishan</title>    
+</head>
+
+<body class="text-base">
+
+
+
+    <header>
+        <div class="border-b-2 py-2">
+            <div class="container mx-auto px-5">
+                <div class="grid text-center sm:text-center lg:text-left lg:grid-cols-2 lg:justify-evenly lg:grid-flow-col">
+                    <div>
+                        ঢাকা, বাংলাদেশ । বুধবার, ২২ মে ২০২৪, ৮ জ্যৈষ্ঠ ১৪৩১
+                    </div>
+                    <div class="lg:text-right hidden md:block">
+                        <button class="rounded-md border-2 border-gray-100 px-3">
+                            কনভার্টার
+                        </button>
+                    </div>
+                </div>
+            </div>            
+        </div>
+
+        <div class="container mx-auto py-2 px-5">
+            <div class="container mx-auto flex items-center justify-between">
+                <div class="basis-1/2">
+                    <img src="/images/daily_sabuj_nishan_logo.jpg" class="w-52" alt="Daily Sabuj Nishan Logo" />
+                </div>
+
+                            <!-- Toggle Button -->
+            <button id="menu-toggle" class="block sm:hidden">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                </svg>
+            </button>
+
+                <div class=" hidden md:block basis-1/2">
+                    <img src="/images/ads_1.jpg"     alt="Ads One" />
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+
+
+
+
+    
+    <menu class="border-b-2 border-t-2 border-gray-100 px-5">
+        <div class="container mx-auto px-5 py-2 flex justify-center items-start font-bold">
+            <!-- Menu Items -->
+            <ul id="menu-items" class="hidden sm:inline-flex gap-10 px-10 align-middle">
+                <li class="px-2 py-1 items-center">
+                    <a href="#">সর্বশেষ</a>
+                </li>
+                <li class="px-2 py-1 align-middle">
+                    <a href="#">জাতীয়</a>
+                </li>
+                <li class="px-2 py-1 align-middle">
+                    <a href="#">রাজনীতি</a>
+                </li>
+                <li class="px-2 py-1 align-middle">
+                    <a href="#">বাংলাদেশ</a>
+                </li>
+                <li class="px-2 py-1 align-middle">
+                    <a href="#">বিদেশ</a>
+                </li>
+                <li class="px-2 py-1 align-middle">
+                    <a href="#">খেলা</a>
+                </li>
+                <li class="px-2 py-1 align-middle">
+                    <a href="#">বিনোদন</a>
+                </li>
+                <li class="px-2 py-1 align-middle">
+                    <a href="#">অর্থনীতি</a>
+                </li>
+                <li class="px-2 py-1 align-middle">
+                    <a href="#">লাইফস্টাইল</a>
+                </li>
+                <li class="px-2 py-1 align-middle">
+                    <a href="#">মতামত</a>
+                </li>
+                <li class="px-2 py-1 align-middle">
+                    <a href="#">ভিডিও</a>
+                </li>
+                <li class="px-2 py-1 align-middle">
+                    <a href="#">অন্যান্য</a>
+                </li>
+            </ul>
+        </div>
+    </menu>
+
+    <script>
+        // JavaScript to toggle menu visibility
+        document.getElementById('menu-toggle').addEventListener('click', function() {
+            document.getElementById('menu-items').classList.toggle('hidden');
+        });
+    </script>
+
+
+
+    
+    <section class="homeTopBlock">
+        <div class="container lg:py-12">
+            <div class="grid grid-flow-row  lg:grid-cols-3 lg:grid-flow-col lg:gap-4">
+                <div class="lg:col-span-3">
+                    <div class="grid grid-flow-row lg:grid-cols-4 lg:grid-flow-col lg:gap-4">
+                        <div class="x-5 lg:col-span-3">
+                            <div class="grid grid-flow-row lg:grid-cols-3 lg:grid-flow-col lg:gap-4">
+                                <div class="order-2 p-5 lg:mt-2">
+                                    <h3
+                                        class="border-b border-t-2 border-b-gray-200 border-t-blue-400 py-2 text-center text-2xl">
+                                        নির্বাচিত সংবাদ
+                                    </h3>
+                                    <ul>
+                                        <li class="border-b border-gray-300 py-2">
+                                            <a href="#">ঘূর্ণিঝড় ‘রেমাল’ মোকাবিলায় সাতক্ষীরা
+                                                দুর্যোগ ব্যবস্থাপনা কমিটির সভা</a>
+                                        </li>
+                                        <li class="border-b border-gray-300 py-2">
+                                            <a href="#">বেপরোয়া বাস ঢুকে পড়ল পুলিশ বক্সে,
+                                                এসআই আহত </a>
+                                        </li>
+                                        <li class="border-b border-gray-300 py-2">
+                                            <a href="#">পাপুয়া নিউগিনিতে ভূমিধসে অন্তত ১০০
+                                                জনের মৃত্যু </a>
+                                        </li>
+                                        <li class="border-b border-gray-300 py-2">
+                                            <a href="#">মার্কিন সম্পদ বাজেয়াপ্তের ফরমানে
+                                                স্বাক্ষর পুতিনের</a>
+                                        </li>
+                                        <li class="border-b border-gray-300 py-2">
+                                            <a href="#">হেরে পাকিস্তান-আয়ারল্যান্ডের উদাহরণ
+                                                টানলেন সাকিব</a>
+                                        </li>
+                                        <li class="border-b border-gray-300 py-2">
+                                            <a href="#">ঘূর্ণিঝড় ‘রেমাল’ মোকাবিলায় সাতক্ষীরা
+                                                দুর্যোগ ব্যবস্থাপনা কমিটির সভা</a>
+                                        </li>
+                                        <li class="border-b border-gray-300 py-2 last:border-b-0">
+                                            <a href="#">ঘূর্ণিঝড় ‘রেমাল’ মোকাবিলায় সাতক্ষীরা
+                                                দুর্যোগ ব্যবস্থাপনা কমিটির সভা</a>
+                                        </li>
+                                        <li class="border-b border-gray-300 py-2 last:border-b-0">
+                                            <a href="#">ঘূর্ণিঝড় ‘রেমাল’ মোকাবিলায় সাতক্ষীরা
+                                                দুর্যোগ ব্যবস্থাপনা কমিটির সভা</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="order-1 p-5 lg:col-span-2">
+                                    <div class="pb-2">
+                                        <h2 class="text-4xl">
+                                            <a href="#">মেট্রো রেলে ভ্যাট যাত্রীর ওপর চাপবে, পুনর্বিবেচনার অনুরোধ</a>
+                                        </h2>
+                                        <p>
+                                            <a href="#">মেট্রো রেলের ওপর ভ্যাট বসানোর সিদ্ধান্ত পুনর্বিবেচনার অনুরোধ
+                                                জানিয়েছেন ঢাকা
+                                                ম্যাস ট্রানজিট কম্পানি ...</a>
+                                        </p>
+                                    </div>
+                                    <a href="#">
+                                        <img class="rounded-lg"
+                                            src="../images/1l-Image-Dhaka-Metro-Mass-Rapid-Transit-System.webp"
+                                            alt="মেট্রো রেলে ভ্যাট যাত্রীর ওপর চাপবে, পুনর্বিবেচনার অনুরোধ" />
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="">
+                            <div class="grid grid-flow-row grid-rows-3 gap-1 p-5">
+                                <div class="border-b-2 border-b-gray-100 py-2">
+                                    <div class="grid lg:grid-cols-2 lg:grid-flow-col lg:gap-2">
+                                        <div>
+                                            <h2>
+                                                <a href="#">
+                                                    কেমন থাকবে আগামী ৩ দিনের আবহাওয়া, জানাল আবহাওয়া অধিদপ্তর
+                                                </a>
+                                            </h2>
+                                        </div>
+                                        <div class="rounder-md">
+                                            <a href="#">
+                                                <img class="rounded-lg"
+                                                    src="../images/1l-Image-Dhaka-Metro-Mass-Rapid-Transit-System.webp"
+                                                    alt="কেমন থাকবে আগামী ৩ দিনের আবহাওয়া, জানাল আবহাওয়া অধিদপ্তর" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="border-b-2 border-b-gray-100 py-2">
+                                    <div class="grid lg:grid-cols-2 lg:grid-flow-col lg:gap-2">
+                                        <div>
+                                            <h2>
+                                                <a href="#">
+                                                    কেমন থাকবে আগামী ৩ দিনের আবহাওয়া, জানাল আবহাওয়া অধিদপ্তর
+                                                </a>
+                                            </h2>
+                                        </div>
+                                        <div class="rounder-md">
+                                            <a href="#">
+                                                <img class="rounded-lg"
+                                                    src="../images/1l-Image-Dhaka-Metro-Mass-Rapid-Transit-System.webp"
+                                                    alt="কেমন থাকবে আগামী ৩ দিনের আবহাওয়া, জানাল আবহাওয়া অধিদপ্তর" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="border-b-2 border-b-gray-100 py-2">
+                                    <div class="grid lg:grid-cols-2 lg:grid-flow-col lg:gap-2">
+                                        <div>
+                                            <h2>
+                                                <a href="#">
+                                                    কেমন থাকবে আগামী ৩ দিনের আবহাওয়া, জানাল আবহাওয়া অধিদপ্তর
+                                                </a>
+                                            </h2>
+                                        </div>
+                                        <div class="rounder-md">
+                                            <a href="#">
+                                                <img class="rounded-lg"
+                                                    src="../images/1l-Image-Dhaka-Metro-Mass-Rapid-Transit-System.webp"
+                                                    alt="কেমন থাকবে আগামী ৩ দিনের আবহাওয়া, জানাল আবহাওয়া অধিদপ্তর" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="border-b-2 border-b-gray-100 py-2">
+                                    <div class="grid lg:grid-cols-2 lg:grid-flow-col lg:gap-2">
+                                        <div>
+                                            <h2>
+                                                <a href="#">
+                                                    কেমন থাকবে আগামী ৩ দিনের আবহাওয়া, জানাল আবহাওয়া অধিদপ্তর
+                                                </a>
+                                            </h2>
+                                        </div>
+                                        <div class="rounder-md">
+                                            <a href="#">
+                                                <img class="rounded-lg"
+                                                    src="../images/1l-Image-Dhaka-Metro-Mass-Rapid-Transit-System.webp"
+                                                    alt="কেমন থাকবে আগামী ৩ দিনের আবহাওয়া, জানাল আবহাওয়া অধিদপ্তর" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="border-b-2 border-b-gray-100 py-2">
+                                    <div class="grid lg:grid-cols-2 lg:grid-flow-col lg:gap-2">
+                                        <div>
+                                            <h2>
+                                                <a href="#">
+                                                    কেমন থাকবে আগামী ৩ দিনের আবহাওয়া, জানাল আবহাওয়া অধিদপ্তর
+                                                </a>
+                                            </h2>
+                                        </div>
+                                        <div class="rounder-md">
+                                            <a href="#">
+                                                <img class="rounded-lg"
+                                                    src="../images/1l-Image-Dhaka-Metro-Mass-Rapid-Transit-System.webp"
+                                                    alt="কেমন থাকবে আগামী ৩ দিনের আবহাওয়া, জানাল আবহাওয়া অধিদপ্তর" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="border-2 rounded-md hover:bg-red-600">09</div> -->
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+    
+    <div class="container">
+
+        <div class="text-center mb-5">
+            <div class="border-b border-custom">
+                <h2 class="border-b-2 border-orange-400 text-2xl inline font-extrabold">সর্বশেষ সংবাদ</h2>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-2 lg:grid-cols-4 gap-4 py-5 px-5">
+            <div class="">
+                <a href="#">
+                    <img src="https://www.kalerkantho.com/_next/image?url=https%3A%2F%2Fcdn.kalerkantho.com%2Fpublic%2Fnews_images%2F2024%2F05%2F21%2Fthumbnails%2F1716305236-5f19d5e06a12438897c5771827eaea40.jpg&w=828&q=100"
+                        alt="strom" class="rounded-l-lg rounded-r-lg" />
+                </a>
+                <h2 class="font-extrabold">
+                    <a href="#">
+                        ২৪ ঘণ্টার মধ্যে বঙ্গোপসাগরে লঘুচাপ সৃষ্টির আভাস
+                    </a>
+                </h2>
+                <p>আগামী ২৪ ঘণ্টার মধ্যে বঙ্গোপসাগরে একটি লঘুচাপ সৃষ্টি হাতে পারে। যা পরবর্তীতে রূপ নিতে পারে
+                    ঘূর্ণিঝড়ে...</p>
+            </div>
+            <div class="">
+                <a href="#">
+                    <img src="https://www.kalerkantho.com/_next/image?url=https%3A%2F%2Fcdn.kalerkantho.com%2Fpublic%2Fnews_images%2F2024%2F05%2F21%2Fthumbnails%2F1716305236-5f19d5e06a12438897c5771827eaea40.jpg&w=828&q=100"
+                        alt="strom" class="rounded-l-lg rounded-r-lg" />
+                </a>
+                <h2 class="font-extrabold">
+                    <a href="#">
+                        ২৪ ঘণ্টার মধ্যে বঙ্গোপসাগরে লঘুচাপ সৃষ্টির আভাস
+                    </a>
+                </h2>
+                <p>আগামী ২৪ ঘণ্টার মধ্যে বঙ্গোপসাগরে একটি লঘুচাপ সৃষ্টি হাতে পারে। যা পরবর্তীতে রূপ নিতে পারে
+                    ঘূর্ণিঝড়ে...</p>
+            </div>
+            <div class="">
+                <a href="#">
+                    <img src="https://www.kalerkantho.com/_next/image?url=https%3A%2F%2Fcdn.kalerkantho.com%2Fpublic%2Fnews_images%2F2024%2F05%2F21%2Fthumbnails%2F1716305236-5f19d5e06a12438897c5771827eaea40.jpg&w=828&q=100"
+                        alt="strom" class="rounded-l-lg rounded-r-lg" />
+                </a>
+                <h2 class="font-extrabold">
+                    <a href="#">
+                        ২৪ ঘণ্টার মধ্যে বঙ্গোপসাগরে লঘুচাপ সৃষ্টির আভাস
+                    </a>
+                </h2>
+                <p>আগামী ২৪ ঘণ্টার মধ্যে বঙ্গোপসাগরে একটি লঘুচাপ সৃষ্টি হাতে পারে। যা পরবর্তীতে রূপ নিতে পারে
+                    ঘূর্ণিঝড়ে...</p>
+            </div>
+            <div class="">
+                <a href="#">
+                    <img src="https://www.kalerkantho.com/_next/image?url=https%3A%2F%2Fcdn.kalerkantho.com%2Fpublic%2Fnews_images%2F2024%2F05%2F21%2Fthumbnails%2F1716305236-5f19d5e06a12438897c5771827eaea40.jpg&w=828&q=100"
+                        alt="strom" class="rounded-l-lg rounded-r-lg" />
+                </a>
+                <h2 class="font-extrabold">
+                    <a href="#">
+                        ২৪ ঘণ্টার মধ্যে বঙ্গোপসাগরে লঘুচাপ সৃষ্টির আভাস
+                    </a>
+                </h2>
+                <p>আগামী ২৪ ঘণ্টার মধ্যে বঙ্গোপসাগরে একটি লঘুচাপ সৃষ্টি হাতে পারে। যা পরবর্তীতে রূপ নিতে পারে
+                    ঘূর্ণিঝড়ে...</p>
+            </div>
+            <div class="">
+                <a href="#">
+                    <img src="https://www.kalerkantho.com/_next/image?url=https%3A%2F%2Fcdn.kalerkantho.com%2Fpublic%2Fnews_images%2F2024%2F05%2F21%2Fthumbnails%2F1716305236-5f19d5e06a12438897c5771827eaea40.jpg&w=828&q=100"
+                        alt="strom" class="rounded-l-lg rounded-r-lg" />
+                </a>
+                <h2 class="font-extrabold">
+                    <a href="#">
+                        ২৪ ঘণ্টার মধ্যে বঙ্গোপসাগরে লঘুচাপ সৃষ্টির আভাস
+                    </a>
+                </h2>
+                <p>আগামী ২৪ ঘণ্টার মধ্যে বঙ্গোপসাগরে একটি লঘুচাপ সৃষ্টি হাতে পারে। যা পরবর্তীতে রূপ নিতে পারে
+                    ঘূর্ণিঝড়ে...</p>
+            </div>
+            <div class="">
+                <a href="#">
+                    <img src="https://www.kalerkantho.com/_next/image?url=https%3A%2F%2Fcdn.kalerkantho.com%2Fpublic%2Fnews_images%2F2024%2F05%2F21%2Fthumbnails%2F1716305236-5f19d5e06a12438897c5771827eaea40.jpg&w=828&q=100"
+                        alt="strom" class="rounded-l-lg rounded-r-lg" />
+                </a>
+                <h2 class="font-extrabold">
+                    <a href="#">
+                        ২৪ ঘণ্টার মধ্যে বঙ্গোপসাগরে লঘুচাপ সৃষ্টির আভাস
+                    </a>
+                </h2>
+                <p>আগামী ২৪ ঘণ্টার মধ্যে বঙ্গোপসাগরে একটি লঘুচাপ সৃষ্টি হাতে পারে। যা পরবর্তীতে রূপ নিতে পারে
+                    ঘূর্ণিঝড়ে...</p>
+            </div>
+            <div class="">
+                <a href="#">
+                    <img src="https://www.kalerkantho.com/_next/image?url=https%3A%2F%2Fcdn.kalerkantho.com%2Fpublic%2Fnews_images%2F2024%2F05%2F21%2Fthumbnails%2F1716305236-5f19d5e06a12438897c5771827eaea40.jpg&w=828&q=100"
+                        alt="strom" class="rounded-l-lg rounded-r-lg" />
+                </a>
+                <h2 class="font-extrabold">
+                    <a href="#">
+                        ২৪ ঘণ্টার মধ্যে বঙ্গোপসাগরে লঘুচাপ সৃষ্টির আভাস
+                    </a>
+                </h2>
+                <p>আগামী ২৪ ঘণ্টার মধ্যে বঙ্গোপসাগরে একটি লঘুচাপ সৃষ্টি হাতে পারে। যা পরবর্তীতে রূপ নিতে পারে
+                    ঘূর্ণিঝড়ে...</p>
+            </div>
+            <div class="">
+                <a href="#">
+                    <img src="https://www.kalerkantho.com/_next/image?url=https%3A%2F%2Fcdn.kalerkantho.com%2Fpublic%2Fnews_images%2F2024%2F05%2F21%2Fthumbnails%2F1716305236-5f19d5e06a12438897c5771827eaea40.jpg&w=828&q=100"
+                        alt="strom" class="rounded-l-lg rounded-r-lg" />
+                </a>
+                <h2 class="font-extrabold">
+                    <a href="#">
+                        ২৪ ঘণ্টার মধ্যে বঙ্গোপসাগরে লঘুচাপ সৃষ্টির আভাস
+                    </a>
+                </h2>
+                <p>আগামী ২৪ ঘণ্টার মধ্যে বঙ্গোপসাগরে একটি লঘুচাপ সৃষ্টি হাতে পারে। যা পরবর্তীতে রূপ নিতে পারে
+                    ঘূর্ণিঝড়ে...</p>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+    <section class="homeTopBlock">
+        <div class="container py-12">
+
+            <div class="text-center">
+                <h2 class="text-2xl font-extrabold">
+                    <img src="/images/rimel-1716732358.webp" alt="Rimel Tornedo" />
+                </h2>
+            </div>
+            <div class="bg-gray-300 p-5">
+                <div class="grid grid-cols-2 grid-flow-col gap-4">
+                    <div class="rounded-lg">
+                        <a href="#">
+                            <img src="https://samakal.com/media/imgAll/2024May/sundarbanjpg-3-1716890688.jpg"
+                                alt="Latest Rimel" />
+                        </a>
+                        <h2 class="bg-sky-100 p-2 text-2xl">
+                            <a href="#">
+                                সুন্দরবন থেকে ২৬টি হরিণের মরদেহ উদ্ধার, আহত ১৭
+                            </a>
+                        </h2>
+                        <p class="bg-sky-100 p-2">
+                            ঘূর্ণিঝড় ‘রিমাল’ এর প্রভাবে টানা প্রায় ৩০ ঘণ্টা ধরে জোয়ার-জলোচ্ছ্বাসে প্লাবিত গোটা
+                            সুন্দরবন। এতে বন্যপ্রাণী ও মিষ্টি পানির পুকুরগুলোতে ঢুকে পড়েছে সাগরের নোনা জল। একের পর এক
+                            মিলছে হরিণসহ বন্যপ্রাণী মরদেহ। বুধবার দুপুর পর্যন্ত বনের বিভিন্ন স্থান থেকে ২৬টি হরিণের
+                            মরদেহ উদ্ধার করেছে বন
+                        </p>
+                    </div>
+                    <div>
+                        <div class="grid grid-cols-1 lg:grid-cols-2 grid-rows-2 gap-x-4 gap-y-[-8]">
+                            <div class="border border-gray-300">
+                                <a href="#">
+                                    <img src="https://samakal.com/media/imgAll/2024May/khulnajpg-33-1716887926.jpg"
+                                        alt="ashroykendro">
+                                </a>
+                                <p class="bg-sky-100 p-2">
+                                    <a href="#">‘এবার বাইচে ফিরলি শহরে চলি যাব’</a>
+                                </p>
+                            </div>
+                            <div class="border border-gray-300">
+                                <a href="#"><img src="https://samakal.com/media/imgAll/2024May/00-1716835150.jpg"
+                                        alt="biddutt bicchinno"></a>
+                                <p class="bg-sky-100 p-2">
+                                    <a href="#">‘ঘূর্ণিঝড় রিমালে ঢাকার কিছু এলাকা বিদ্যুৎবিচ্ছিন্ন’</a>
+                                </p>
+                            </div>
+                            <div class="border border-gray-300">
+                                <a href="#"><img src="https://samakal.com/media/imgAll/2024May/ss-1716804329.gif"
+                                        alt="saintmartin dip er charpash"></a>
+                                <p class="bg-sky-100 p-2">
+                                    <a href="#">‘জোয়ারে ভেঙেছে সেন্টমার্টিন দ্বীপের চারপাশ, উড়ে গেছে
+                                        গাছপালা-ঘরবাড়ি’</a>
+                                </p>
+                            </div>
+                            <div class="border border-gray-300">
+                                <a href="#"><img
+                                        src="https://samakal.com/media/imgAll/2024May/bagerhat-one-1716798717.jpg"
+                                        alt="bagerhater nimno onchol plabito"></a>
+                                <p class="bg-sky-100 p-2">
+                                    <a href="#">‘বাগেরহাটের নিম্নাঞ্চল প্লাবিত, পানিবন্দি কয়েক হাজার মানুষ’</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    
+    <section class="homeBlock pt-[50px] pb-[80px] px-5">
+        <div class="container mx-auto">
+            <div class="lg:grid lg:grid-flow-col lg:grid-cols-4 gap-4">
+                <div class="col-span-3 border-b border-custom">
+                    <div class="border-b border-custom">
+                        <h2 class="border-b-2 border-orange-400 text-2xl inline pr-5 font-extrabold">রাজনীতি</h2>
+                    </div>
+                    <div class="grid lg:grid-flow-col lg:grid-cols-5 gap-4 py-5">
+                        <div class="col-span-3">
+                            <img src="https://samakal.com/media/imgAll/2024May/azim-1716924402.jpg"
+                                alt="এমপি আজীমের আশ্রয়দাতা গোপাল কোথায়" />
+                            <h2 class="text-2xl">
+                                <a href="#">এমপি আজীমের আশ্রয়দাতা গোপাল কোথায়</a>
+                            </h2>
+                            <p>ঝিনাইদহের এমপি আনোয়ারুল আজীম আনার কলকাতায় প্রথমে ওঠেন তাঁর বন্ধু গোপাল বিশ্বাসের বাড়িতে।
+                                সেখান থেকে বের হয়ে নিখোঁজ হন। এর পর ২২</p>
+                        </div>
+                        <div class="border-r border-custom pr-5">
+                            <img src="https://samakal.com/media/imgAll/2024May/azim-1716924402.jpg"
+                                alt="এমপি আজীমের আশ্রয়দাতা গোপাল কোথায়" />
+                            <h2>
+                                <a href="#">এমপি আজীমের আশ্রয়দাতা গোপাল কোথায়</a>
+                            </h2>
+                            <img src="https://samakal.com/media/imgAll/2024May/azim-1716924402.jpg"
+                                alt="এমপি আজীমের আশ্রয়দাতা গোপাল কোথায়" />
+                            <h2>
+                                <a href="#">এমপি আজীমের আশ্রয়দাতা গোপাল কোথায়</a>
+                            </h2>
+                            <img src="https://samakal.com/media/imgAll/2024May/azim-1716924402.jpg"
+                                alt="এমপি আজীমের আশ্রয়দাতা গোপাল কোথায়" />
+                            <h2>
+                                <a href="#">এমপি আজীমের আশ্রয়দাতা গোপাল কোথায়</a>
+                            </h2>
+                        </div>
+                        <div>
+                            <ul>
+                                <li class="pb-5 pt-2 border-b border-custom">
+                                    <a href="#">
+                                        ইসরায়েলকে পাত্তা না দিয়ে ফিলিস্তিনকে স্বীকৃতি ইউরোপের তিন দেশের
+                                    </a>
+                                </li>
+                                <li class="pb-5 pt-2 border-b border-custom">
+                                    <a href="#">
+                                        নিরাপত্তা শক্তিশালী করতে পাকিস্তানের সঙ্গে কাজ করবে চীন
+                                    </a>
+                                </li>
+                                <li class="pb-5 pt-2 border-b border-custom">
+                                    <a href="#">
+                                        মদ্যপান করতে না চাওয়ায় ছাদ থেকে ফেলে দিল বন্ধুরা
+                                    </a>
+                                </li>
+                                <li class="pb-5 pt-2 border-b border-custom">
+                                    <a href="#">
+                                        ইন্ডিগোর উড়োজাহাজে বোমা আতঙ্ক, যাত্রীদের তল্লাশি
+                                    </a>
+                                </li>
+                                <li class="pb-5 pt-2">
+                                    <a href="#">
+                                        কিয়েভকে যুদ্ধবিমানসহ শতকোটি ইউরো দিচ্ছে বেলজিয়াম
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="block">
+                    <div>
+                        <div class="border-b border-custom">
+                            <h2 class="border-b-2 border-orange-400 text-2xl inline pr-5 font-extrabold">
+                                সর্বাধিক পঠিত
+                            </h2>
+                        </div>
+
+                        <div class="mt-2">
+                            <ul>
+                                <li class="border-b border-gray-300 py-2">
+                                    <a href="#">ঘূর্ণিঝড় ‘রেমাল’ মোকাবিলায় সাতক্ষীরা
+                                        দুর্যোগ ব্যবস্থাপনা কমিটির সভা</a>
+                                </li>
+                                <li class="border-b border-gray-300 py-2">
+                                    <a href="#">বেপরোয়া বাস ঢুকে পড়ল পুলিশ বক্সে,
+                                        এসআই আহত </a>
+                                </li>
+                                <li class="border-b border-gray-300 py-2">
+                                    <a href="#">পাপুয়া নিউগিনিতে ভূমিধসে অন্তত ১০০
+                                        জনের মৃত্যু </a>
+                                </li>
+                                <li class="border-b border-gray-300 py-2">
+                                    <a href="#">মার্কিন সম্পদ বাজেয়াপ্তের ফরমানে
+                                        স্বাক্ষর পুতিনের</a>
+                                </li>
+                                <li class="border-b border-gray-300 py-2">
+                                    <a href="#">হেরে পাকিস্তান-আয়ারল্যান্ডের উদাহরণ
+                                        টানলেন সাকিব</a>
+                                </li>
+                                <li class="border-b border-gray-300 py-2">
+                                    <a href="#">ঘূর্ণিঝড় ‘রেমাল’ মোকাবিলায় সাতক্ষীরা
+                                        দুর্যোগ ব্যবস্থাপনা কমিটির সভা</a>
+                                </li>
+                                <li class="border-b border-gray-300 py-2 last:border-b-0">
+                                    <a href="#">ঘূর্ণিঝড় ‘রেমাল’ মোকাবিলায় সাতক্ষীরা
+                                        দুর্যোগ ব্যবস্থাপনা কমিটির সভা</a>
+                                </li>
+                                <li class="border-b border-gray-300 py-2 last:border-b-0">
+                                    <a href="#">ঘূর্ণিঝড় ‘রেমাল’ মোকাবিলায় সাতক্ষীরা
+                                        দুর্যোগ ব্যবস্থাপনা কমিটির সভা</a>
+                                </li>
+                                <li class="border-b border-gray-300 py-2 last:border-b-0">
+                                    <a href="#">ঘূর্ণিঝড় ‘রেমাল’ মোকাবিলায় সাতক্ষীরা
+                                        দুর্যোগ ব্যবস্থাপনা কমিটির সভা</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section class="homeTopBlock">
+        <div class="container py-12">
+
+            <div class="text-center mb-5">
+                <div class="border-b border-custom">
+                    <h2 class="border-b-2 border-orange-400 text-2xl inline font-extrabold">বিনোদন</h2>
+                </div>
+            </div>
+            <div class="bg-gray-300 p-5">
+                <div class="lg:grid lg:grid-cols-2 lg:grid-flow-col lg:gap-4 gap-4">
+                    <div>
+                        <div class="grid grid-cols-2 grid-rows-3 gap-2">
+                            <div class="border border-gray-300">
+                                <a href="#">
+                                    <img src="https://samakal.com/media/imgAll/2024May/SM/fabrico-bruno-1716909065.jpg"
+                                        alt="ashroykendro">
+                                </a>
+                                <p class="bg-sky-100 p-2">
+                                    <a href="#">‘ওয়েস্টহ্যামে ব্রাজিলের ডিফেন্ডার ব্রুনো ’</a>
+                                </p>
+                            </div>
+                            <div class="border border-gray-300">
+                                <a href="#"><img
+                                        src="https://samakal.com/media/imgAll/2024May/SM/swining-1716910685.jpg"
+                                        alt="biddutt bicchinno"></a>
+                                <p class="bg-sky-100 p-2">
+                                    <a href="#">‘সেরা সাঁতারু বিকেএসপির তোফায়েল ও অ্যানি ’</a>
+                                </p>
+                            </div>
+                            <div class="border border-gray-300">
+                                <a href="#"><img
+                                        src="https://samakal.com/media/imgAll/2024May/SM/ban-vs-usa-match-1716905646.jpg"
+                                        alt="saintmartin dip er charpash"></a>
+                                <p class="bg-sky-100 p-2">
+                                    <a href="#">‘ঝড়ে লন্ডভন্ড স্টেডিয়াম, বাংলাদেশের প্রস্তুতি ম্যাচ বাতিল’</a>
+                                </p>
+                            </div>
+                            <div class="border border-gray-300">
+                                <a href="#"><img
+                                        src="https://samakal.com/media/imgAll/2024May/SM/women-league-1716906797.jpg"
+                                        alt="bagerhater nimno onchol plabito"></a>
+                                <p class="bg-sky-100 p-2">
+                                    <a href="#">‘মেয়েদের ফুটবলে চ্যাম্পিয়ন নাসরিন স্পোর্টস একাডেমি ’</a>
+                                </p>
+                            </div>
+                            <div class="border border-gray-300">
+                                <a href="#"><img
+                                        src="https://samakal.com/media/imgAll/2024May/SM/enzo-mareska-1716900304.jpg"
+                                        alt="bagerhater nimno onchol plabito"></a>
+                                <p class="bg-sky-100 p-2">
+                                    <a href="#">‘লম্বা চুক্তিতে চেলসির কোচ মারেস্কা ’</a>
+                                </p>
+                            </div>
+                            <div class="border border-gray-300">
+                                <a href="#"><img
+                                        src="https://samakal.com/media/imgAll/2024May/SM/canada-wins-1716898209.jpg"
+                                        alt="bagerhater nimno onchol plabito"></a>
+                                <p class="bg-sky-100 p-2">
+                                    <a href="#">‘প্রস্তুতি ম্যাচে কানাডা, ওমান ও নামিবিয়ার জয়’</a>
+                                </p>
+                            </div>
+                            <div class="border border-gray-300">
+                                <a href="#">
+                                    <img src="https://samakal.com/media/imgAll/2024May/SM/fabrico-bruno-1716909065.jpg"
+                                        alt="ashroykendro">
+                                </a>
+                                <p class="bg-sky-100 p-2">
+                                    <a href="#">‘ওয়েস্টহ্যামে ব্রাজিলের ডিফেন্ডার ব্রুনো ’</a>
+                                </p>
+                            </div>
+                            <div class="border border-gray-300">
+                                <a href="#"><img
+                                        src="https://samakal.com/media/imgAll/2024May/SM/swining-1716910685.jpg"
+                                        alt="biddutt bicchinno"></a>
+                                <p class="bg-sky-100 p-2">
+                                    <a href="#">‘সেরা সাঁতারু বিকেএসপির তোফায়েল ও অ্যানি ’</a>
+                                </p>
+                            </div>
+                            <div class="border border-gray-300">
+                                <a href="#"><img
+                                        src="https://samakal.com/media/imgAll/2024May/SM/ban-vs-usa-match-1716905646.jpg"
+                                        alt="saintmartin dip er charpash"></a>
+                                <p class="bg-sky-100 p-2">
+                                    <a href="#">‘ঝড়ে লন্ডভন্ড স্টেডিয়াম, বাংলাদেশের প্রস্তুতি ম্যাচ বাতিল'</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-5">
+                        <div class="rounded-lg">
+                            <a href="#">
+                                <img src="https://samakal.com/media/imgAll/2024May/argentina-women-football-1716914628.jpg"
+                                    alt="Latest Rimel" />
+                            </a>
+                            <h2 class="bg-sky-100 p-2 text-2xl">
+                                <a href="#">
+                                    ফুটবল ছাড়লেন সুযোগ-সুবিধা বঞ্চিত আর্জেন্টিনার মেয়েরা
+                                </a>
+                            </h2>
+                            <p class="bg-sky-100 p-2">
+                                লিওনেল মেসি-ডি মারিয়ারা ফুটবলের বিশ্ব চ্যাম্পিয়ন। অথচ ওই দেশের তিন নারী ফুটবলার ম্যাচের
+                                আগে সুযোগ-সুবিধা-ভাতা বঞ্চিতের পাশাপাশি অপদস্ত হওয়ার অভিযোগ তুলে দল থেকে সরে দাঁড়িয়েছেন।
+                            </p>
+                        </div>
+                        <div class="text-center pt-4">
+                            <h2 class="text-2xl font-extrabold">
+                                <img src="/images/rimel-1716732358.webp" class="object-cover h-[87px]"
+                                    alt="Rimel Tornedo" />
+                            </h2>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="homeBlock pt-[50px] pb-[80px] px-5">
+        <div class="container">
+            <div class="lg:grid lg:grid-flow-col lg:grid-cols-4 gap-4">
+                <div class="col-span-3 border-b border-custom">
+                    <div class="border-b border-custom">
+                        <h2 class="border-b-2 border-orange-400 text-2xl inline pr-5 font-extrabold">বাংলাদেশ</h2>
+                    </div>
+                    <div class="grid lg:grid-flow-col lg:grid-cols-5 gap-4 py-5">
+                        <div class="col-span-3">
+                            <img src="https://samakal.com/media/imgAll/2024May/azim-1716924402.jpg"
+                                alt="এমপি আজীমের আশ্রয়দাতা গোপাল কোথায়" />
+                            <h2 class="text-2xl">
+                                <a href="#">এমপি আজীমের আশ্রয়দাতা গোপাল কোথায়</a>
+                            </h2>
+                            <p>ঝিনাইদহের এমপি আনোয়ারুল আজীম আনার কলকাতায় প্রথমে ওঠেন তাঁর বন্ধু গোপাল বিশ্বাসের বাড়িতে।
+                                সেখান থেকে বের হয়ে নিখোঁজ হন। এর পর ২২</p>
+                        </div>
+                        <div class="border-r border-custom pr-5">
+                            <img src="https://samakal.com/media/imgAll/2024May/azim-1716924402.jpg"
+                                alt="এমপি আজীমের আশ্রয়দাতা গোপাল কোথায়" />
+                            <h2>
+                                <a href="#">এমপি আজীমের আশ্রয়দাতা গোপাল কোথায়</a>
+                            </h2>
+                            <img src="https://samakal.com/media/imgAll/2024May/azim-1716924402.jpg"
+                                alt="এমপি আজীমের আশ্রয়দাতা গোপাল কোথায়" />
+                            <h2>
+                                <a href="#">এমপি আজীমের আশ্রয়দাতা গোপাল কোথায়</a>
+                            </h2>
+                            <img src="https://samakal.com/media/imgAll/2024May/azim-1716924402.jpg"
+                                alt="এমপি আজীমের আশ্রয়দাতা গোপাল কোথায়" />
+                            <h2>
+                                <a href="#">এমপি আজীমের আশ্রয়দাতা গোপাল কোথায়</a>
+                            </h2>
+                        </div>
+                        <div>
+                            <ul>
+                                <li class="pb-5 pt-2 border-b border-custom">
+                                    <a href="#">
+                                        ইসরায়েলকে পাত্তা না দিয়ে ফিলিস্তিনকে স্বীকৃতি ইউরোপের তিন দেশের
+                                    </a>
+                                </li>
+                                <li class="pb-5 pt-2 border-b border-custom">
+                                    <a href="#">
+                                        নিরাপত্তা শক্তিশালী করতে পাকিস্তানের সঙ্গে কাজ করবে চীন
+                                    </a>
+                                </li>
+                                <li class="pb-5 pt-2 border-b border-custom">
+                                    <a href="#">
+                                        মদ্যপান করতে না চাওয়ায় ছাদ থেকে ফেলে দিল বন্ধুরা
+                                    </a>
+                                </li>
+                                <li class="pb-5 pt-2 border-b border-custom">
+                                    <a href="#">
+                                        ইন্ডিগোর উড়োজাহাজে বোমা আতঙ্ক, যাত্রীদের তল্লাশি
+                                    </a>
+                                </li>
+                                <li class="pb-5 pt-2">
+                                    <a href="#">
+                                        কিয়েভকে যুদ্ধবিমানসহ শতকোটি ইউরো দিচ্ছে বেলজিয়াম
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="block">
+                    <div>
+                        <div class="border-b border-custom">
+                            <h2 class="border-b-2 border-orange-400 text-2xl inline pr-5 font-extrabold">
+                                সর্বাধিক পঠিত
+                            </h2>
+                        </div>
+                        <div class="mt-2">
+                            <ul>
+                                <li class="border-b border-gray-300 py-2">
+                                    <a href="#">ঘূর্ণিঝড় ‘রেমাল’ মোকাবিলায় সাতক্ষীরা
+                                        দুর্যোগ ব্যবস্থাপনা কমিটির সভা</a>
+                                </li>
+                                <li class="border-b border-gray-300 py-2">
+                                    <a href="#">বেপরোয়া বাস ঢুকে পড়ল পুলিশ বক্সে,
+                                        এসআই আহত </a>
+                                </li>
+                                <li class="border-b border-gray-300 py-2">
+                                    <a href="#">পাপুয়া নিউগিনিতে ভূমিধসে অন্তত ১০০
+                                        জনের মৃত্যু </a>
+                                </li>
+                                <li class="border-b border-gray-300 py-2">
+                                    <a href="#">মার্কিন সম্পদ বাজেয়াপ্তের ফরমানে
+                                        স্বাক্ষর পুতিনের</a>
+                                </li>
+                                <li class="border-b border-gray-300 py-2">
+                                    <a href="#">হেরে পাকিস্তান-আয়ারল্যান্ডের উদাহরণ
+                                        টানলেন সাকিব</a>
+                                </li>
+                                <li class="border-b border-gray-300 py-2">
+                                    <a href="#">ঘূর্ণিঝড় ‘রেমাল’ মোকাবিলায় সাতক্ষীরা
+                                        দুর্যোগ ব্যবস্থাপনা কমিটির সভা</a>
+                                </li>
+                                <li class="border-b border-gray-300 py-2 last:border-b-0">
+                                    <a href="#">ঘূর্ণিঝড় ‘রেমাল’ মোকাবিলায় সাতক্ষীরা
+                                        দুর্যোগ ব্যবস্থাপনা কমিটির সভা</a>
+                                </li>
+                                <li class="border-b border-gray-300 py-2 last:border-b-0">
+                                    <a href="#">ঘূর্ণিঝড় ‘রেমাল’ মোকাবিলায় সাতক্ষীরা
+                                        দুর্যোগ ব্যবস্থাপনা কমিটির সভা</a>
+                                </li>
+                                <li class="border-b border-gray-300 py-2 last:border-b-0">
+                                    <a href="#">ঘূর্ণিঝড় ‘রেমাল’ মোকাবিলায় সাতক্ষীরা
+                                        দুর্যোগ ব্যবস্থাপনা কমিটির সভা</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="homeTopBlock">
+        <div class="container py-12">
+            <div class="text-center mb-5">
+                <div class="border-b border-custom">
+                    <h2 class="border-b-2 border-orange-400 text-2xl inline font-extrabold">খেলাধুলা</h2>
+                </div>
+            </div>
+            <div class="bg-gray-300 p-5">
+                <div class="grid lg:grid-cols-2 lg:grid-flow-col gap-4">
+                    <div>
+                        <img src="https://samakal.com/media/imgAll/2024May/sundarbanjpg-3-1716890688.jpg"
+                            alt="Latest Rimel" />
+                        <h2 class="text-2xl">
+                            <a href="#">
+                                সুন্দরবন থেকে ২৬টি হরিণের মরদেহ উদ্ধার
+                            </a>
+                        </h2>
+
+                        <p>
+                            ঘূর্ণিঝড় ‘রিমাল’ এর প্রভাবে টানা প্রায় ৩০ ঘণ্টা ধরে জোয়ার-জলোচ্ছ্বাসে প্লাবিত গোটা
+                            সুন্দরবন। এতে বন্যপ্রাণী ও মিষ্টি পানির পুকুরগুলোতে ঢুকে পড়েছে সাগরের নোনা জল। একের পর এক
+                            মিলছে হরিণসহ বন্যপ্রাণী মরদেহ। বুধবার দুপুর পর্যন্ত বনের বিভিন্ন স্থান থেকে ২৬টি হরিণের
+                            মরদেহ উদ্ধার করেছে বন
+                        </p>
+                    </div>
+                    <div>
+                        <div class="grid grid-flow-row grid-rows-2 gap-0">
+                            <div class="grid grid-flow-col grid-cols-2 gap-4">
+                                <div>
+                                    <img src="https://samakal.com/media/imgAll/2024May/khulnajpg-33-1716887926.jpg"
+                                        alt="ashroykendro">
+                                    <p class="p-2 hover:bg-sky-100">
+                                        <a href="#">
+                                            ‘এবার বাইচে ফিরলি শহরে চলি যাব’
+                                        </a>
+                                    </p>
+
+                                </div>
+                                <div>
+                                    <img src="https://samakal.com/media/imgAll/2024May/00-1716835150.jpg"
+                                        alt="biddutt bicchinno">
+                                    <p class="p-2 hover:bg-sky-100">
+                                        <a href="#">
+                                            ‘ঘূর্ণিঝড় রিমালে ঢাকার কিছু এলাকা বিদ্যুৎবিচ্ছিন্ন’
+                                        </a>
+                                    </p>
+
+                                </div>
+                            </div>
+                            <div class="grid grid-flow-col grid-cols-2 gap-4">
+                                <div>
+                                    <img src="https://samakal.com/media/imgAll/2024May/ss-1716804329.gif"
+                                        alt="saintmartin dip er charpash">
+                                    <p class="p-2 hover:bg-sky-100">
+                                        <a href="#">
+                                            ‘জোয়ারে ভেঙেছে সেন্টমার্টিন দ্বীপের চারপাশ, উড়ে গেছে
+                                            গাছপালা-ঘরবাড়ি’
+                                        </a>
+                                    </p>
+
+                                </div>
+                                <div>
+                                    <img src="https://samakal.com/media/imgAll/2024May/bagerhat-one-1716798717.jpg"
+                                        alt="bagerhater nimno onchol plabito">
+                                    <p class="p-2 hover:bg-sky-100">
+                                        <a href="#">
+                                            ‘বাগেরহাটের নিম্নাঞ্চল প্লাবিত, পানিবন্দি কয়েক হাজার মানুষ’
+                                        </a>
+                                    </p>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="homeTopBlock">
+        <div class="container py-12">
+
+            <div class="text-center">
+                <h2 class="text-2xl font-extrabold">
+                    <img src="/images/rimel-1716732358.webp" alt="Rimel Tornedo" />
+                </h2>
+            </div>
+            <div class="bg-gray-300 p-5">
+                <div class="grid lg:grid-cols-2 lg:grid-flow-col gap-4">
+                    <div class="rounded-lg">
+                        <a href="#">
+                            <img src="https://samakal.com/media/imgAll/2024May/sundarbanjpg-3-1716890688.jpg"
+                                alt="Latest Rimel" />
+                        </a>
+                        <h2 class="bg-sky-100 p-2 text-2xl">
+                            <a href="#">
+                                সুন্দরবন থেকে ২৬টি হরিণের মরদেহ উদ্ধার, আহত ১৭
+                            </a>
+                        </h2>
+                        <p class="bg-sky-100 p-2">
+                            ঘূর্ণিঝড় ‘রিমাল’ এর প্রভাবে টানা প্রায় ৩০ ঘণ্টা ধরে জোয়ার-জলোচ্ছ্বাসে প্লাবিত গোটা
+                            সুন্দরবন। এতে বন্যপ্রাণী ও মিষ্টি পানির পুকুরগুলোতে ঢুকে পড়েছে সাগরের নোনা জল। একের পর এক
+                            মিলছে হরিণসহ বন্যপ্রাণী মরদেহ। বুধবার দুপুর পর্যন্ত বনের বিভিন্ন স্থান থেকে ২৬টি হরিণের
+                            মরদেহ উদ্ধার করেছে বন
+                        </p>
+                    </div>
+                    <div>
+                        <div class="grid grid-cols-2 grid-rows-2 gap-x-4 gap-y-[-8]">
+                            <div class="border border-gray-300">
+                                <a href="#">
+                                    <img src="https://samakal.com/media/imgAll/2024May/khulnajpg-33-1716887926.jpg"
+                                        alt="ashroykendro">
+                                </a>
+                                <p class="bg-sky-100 p-2">
+                                    <a href="#">‘এবার বাইচে ফিরলি শহরে চলি যাব’</a>
+                                </p>
+                            </div>
+                            <div class="border border-gray-300">
+                                <a href="#"><img src="https://samakal.com/media/imgAll/2024May/00-1716835150.jpg"
+                                        alt="biddutt bicchinno"></a>
+                                <p class="bg-sky-100 p-2">
+                                    <a href="#">‘ঘূর্ণিঝড় রিমালে ঢাকার কিছু এলাকা বিদ্যুৎবিচ্ছিন্ন’</a>
+                                </p>
+                            </div>
+                            <div class="border border-gray-300">
+                                <a href="#"><img src="https://samakal.com/media/imgAll/2024May/ss-1716804329.gif"
+                                        alt="saintmartin dip er charpash"></a>
+                                <p class="bg-sky-100 p-2">
+                                    <a href="#">‘জোয়ারে ভেঙেছে সেন্টমার্টিন দ্বীপের চারপাশ, উড়ে গেছে
+                                        গাছপালা-ঘরবাড়ি’</a>
+                                </p>
+                            </div>
+                            <div class="border border-gray-300">
+                                <a href="#"><img
+                                        src="https://samakal.com/media/imgAll/2024May/bagerhat-one-1716798717.jpg"
+                                        alt="bagerhater nimno onchol plabito"></a>
+                                <p class="bg-sky-100 p-2">
+                                    <a href="#">‘বাগেরহাটের নিম্নাঞ্চল প্লাবিত, পানিবন্দি কয়েক হাজার মানুষ’</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="homeTopBlock px-5">
+        <div class="container py-8">
+            <div class="grid lg:grid-flow-col lg:grid-cols-6 gap-4">
+                <div class="col-span-2">
+                    <div>
+                        <img class="object-cover h-[350px]" src="https://samakal.com/media/imgAll/2024May/sundarbanjpg-3-1716890688.jpg" alt="">
+                        <h2 class="text-xl font-semibold"><a href="">‘জোয়ারে ভেঙেছে সেন্টমার্টিন দ্বীপের চারপাশ, উড়ে গেছে গাছপালা-ঘরবাড়ি’</a></h2>
+                    </div>
+                    <ul class="pt-2">
+                        <li class="py-4"><a href="#">ঘূর্ণিঝড় ‘রিমাল’ এর প্রভাবে টানা প্রায়</a></li>
+                        <li><a href="#">ঘূর্ণিঝড় ‘রিমাল’ এর প্রভাবে টানা প্রায়</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <div>
+                        <img class="object-cover h-[350px]" src="https://samakal.com/media/imgAll/2024May/sundarbanjpg-3-1716890688.jpg" alt="">
+                        <h2 class="text-xl font-semibold"><a href="">‘জোয়ারে ভেঙেছে সেন্টমার্টিন দ্বীপের চারপাশ, উড়ে গেছে গাছপালা-ঘরবাড়ি’</a></h2>
+                    </div>
+                    <ul class="pt-2">
+                        <li class="py-4"><a href="#">ঘূর্ণিঝড় ‘রিমাল’ এর প্রভাবে টানা প্রায়</a></li>
+                        <li><a href="#">ঘূর্ণিঝড় ‘রিমাল’ এর প্রভাবে টানা প্রায়</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <div>
+                        <img class="object-cover h-[350px]" src="https://samakal.com/media/imgAll/2024May/sundarbanjpg-3-1716890688.jpg" alt="">
+                        <h2 class="text-xl font-semibold"><a href="">‘জোয়ারে ভেঙেছে সেন্টমার্টিন দ্বীপের চারপাশ, উড়ে গেছে গাছপালা-ঘরবাড়ি’</a></h2>
+                    </div>
+                    <ul class="pt-2">
+                        <li class="py-4"><a href="#">ঘূর্ণিঝড় ‘রিমাল’ এর প্রভাবে টানা প্রায়</a></li>
+                        <li><a href="#">ঘূর্ণিঝড় ‘রিমাল’ এর প্রভাবে টানা প্রায়</a></li>
+                    </ul>
+                </div>
+                <div class="col-span-2">
+                    <div>
+                        <img class="object-cover h-[350px]" src="https://samakal.com/media/imgAll/2024May/sundarbanjpg-3-1716890688.jpg" alt="">
+                        <h2 class="text-xl font-semibold"><a href="">‘জোয়ারে ভেঙেছে সেন্টমার্টিন দ্বীপের চারপাশ, উড়ে গেছে গাছপালা-ঘরবাড়ি’</a></h2>
+                    </div>
+                    <ul class="pt-2">
+                        <li class="py-4"><a href="#">ঘূর্ণিঝড় ‘রিমাল’ এর প্রভাবে টানা প্রায়</a></li>
+                        <li><a href="#">ঘূর্ণিঝড় ‘রিমাল’ এর প্রভাবে টানা প্রায়</a></li>
+                    </ul>
+                </div>
+            </div>            
+        </div>
+    </section>
+
+    <footer>
+        <div class="py-5 bg-gray-200">
+            <div class="container mx-auto px-5">
+                <div class="grid lg:grid-cols-4 lg:grid-flow-col gap-4 justify-between">
+                    <div>
+                        <img src="https://www.dailyjanakantha.com/media/common/janakantha-logo.png" alt="image"><br>
+                        <p>Janakantha Bhabon,</p>
+                        <p>24/A Rashed Khan Menon Sarok</p>
+                        <p>New Eskaton Road, G P O Box No- 3380, Dhaka - 1000</p>
+                        <p>Phone: 02222227780-99</p>
+                        <p>Fax: 9351317, 8316335</p>
+                    </div>
+                    <div>
+                        <div class="border-b border-white">
+                            <h2 class="border-b-2 border-orange-400 text-2xl pr-5 inline font-extrabold">আজকের পত্রিকা
+                            </h2>
+                        </div>
+                        <div>
+                            <ul class="py-4 columns-2">
+                                <li><a href="#">প্রথম পাতা</a></li>
+                                <li><a href="#">খেলা</a></li>
+                                <li><a href="#">শুভ সংঘ</a></li>
+                                <li><a href="#">প্রথম পাতা</a></li>
+                                <li><a href="#">খেলা</a></li>
+                                <li><a href="#">শুভ সংঘ</a></li>
+                                <li><a href="#">প্রথম পাতা</a></li>
+                                <li><a href="#">খেলা</a></li>
+                                <li><a href="#">শুভ সংঘ</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="border-b border-white">
+                            <h2 class="border-b-2 border-orange-400 text-2xl pr-5 inline font-extrabold">অনলাইন</h2>
+                        </div>
+                        <div>
+                            <ul class="py-4 columns-2">
+                                
+                                <li><a href="#">খেলা</a></li>
+                                <li><a href="#">শুভ সংঘ</a></li>
+                                <li><a href="#">প্রথম পাতা</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="border-b border-white">
+                            <h2 class="border-b-2 border-orange-400 text-2xl pr-5 inline font-extrabold">বিজ্ঞাপন</h2>
+                        </div>
+                        <div>
+                            <ul class="py-4 columns-2">     
+                                <li><a href="#">শুভ সংঘ</a></li>                           
+                                <li><a href="#">খেলা</a></li>
+                                <li><a href="#">শুভ সংঘ</a></li>
+                                <li><a href="#">প্রথম পাতা</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

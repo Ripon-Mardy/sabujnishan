@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/input.css -o ./src/output.css -w"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.3"
+  },
+  "name": "dailynishan",
+  "version": "1.0.0",
+  "main": "tailwind.config.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
